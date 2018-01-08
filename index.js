@@ -1,2 +1,2 @@
 var IStorageClient = require('./lib/IStorageClient');
-export default IStorageClient;
+module.exports = IStorageClient;
