@@ -1,7 +1,7 @@
 {
-  "name": "mc_manny",
+  "name": "botbuilder-mongoose-middleware",
   "version": "0.0.1",
-  "description": "Manacola Manny Services",
+  "description": "Middleware to store states in mongodb using mongoose",
   "dependencies": {
     "@slack/client": "^3.9.0",
     "@slack/events-api": "^1.0.1",
