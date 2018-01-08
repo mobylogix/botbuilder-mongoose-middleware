@@ -1,6 +1,6 @@
 {
   "name": "botbuilder-mongoose-middleware",
-  "version": "1.0.2",
+  "version": "1.0.8",
   "description": "Middleware to store states in mongodb using mongoose",
   "main": "index.js",
   "scripts": {
@@ -20,10 +20,12 @@
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-preset-env": "^1.6.1",
+    "bluebird": "^3.5.1",
     "botbuilder": "^3.5.4",
     "lodash": "^4.17.4",
     "moment": "^2.17.1",
     "mongodb": "^2.2.22",
+    "mongoose": "^4.13.9",
     "restify": "^4.3.0"
   },
   "author": "Arslan Nasir <arslan@mobylogix.com>",
