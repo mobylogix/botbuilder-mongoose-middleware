@@ -20,7 +20,7 @@ dbPromise.then((db) => {
 
 const collectionName = "userData";
 
-var docDbClient = new IStorageClient(dbPromise, collectionName); //collection name is optional (default: userData)
+var docDbClient = new IStorageClient({db: dbPromise, collectionName}); //collection name is optional (default: userData)
 
 var tableStorage = new AzureBotStorage({ gzipData: false }, docDbClient); //passing object to here
 
