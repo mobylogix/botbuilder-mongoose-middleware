@@ -1,7 +1,20 @@
 {
   "name": "botbuilder-mongoose-middleware",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Middleware to store states in mongodb using mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobylogix/botbuilder-mongoose-middleware.git"
+  },
+  "keywords": [
+    "botbuilder",
+    "mongoose",
+    "mongodb"
+  ],
   "dependencies": {
     "azure-storage": "^2.7.0",
     "botbuilder": "^3.5.4",
@@ -9,5 +22,11 @@
     "moment": "^2.17.1",
     "mongodb": "^2.2.22",
     "restify": "^4.3.0"
-  }
+  },
+  "author": "Arslan Nasir <arslan@mobylogix.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mobylogix/botbuilder-mongoose-middleware/issues"
+  },
+  "homepage": "https://github.com/mobylogix/botbuilder-mongoose-middleware#readme"
 }
