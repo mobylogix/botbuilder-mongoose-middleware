@@ -1,6 +1,6 @@
 {
   "name": "botbuilder-mongoose-middleware",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Middleware to store states in mongodb using mongoose",
   "main": "index.js",
   "scripts": {
